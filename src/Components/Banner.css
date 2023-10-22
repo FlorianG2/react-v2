@@ -1,0 +1,21 @@
+.banner {
+  position: absolute;
+  height: 20vh;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}
+
+.banner-side{
+  width: 25%;
+  font-family: 'Khand', sans-serif;
+  color: black;
+  display: flex;
+  font-size: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-center{
+  width: 50%;
+}
