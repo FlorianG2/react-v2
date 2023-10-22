@@ -1,12 +1,16 @@
-import Banner from '../src/Components/Banner';
-import Tier from '../src/Components/Tier';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import './App.css'
+
 
 function App() {
   return (
     <div>
-      <Banner/>
-      <Tier/>
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+       </Routes>
     </div>
   );
 }

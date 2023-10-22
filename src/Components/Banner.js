@@ -1,6 +1,7 @@
 import './Banner.css';
 import './Logo.css';
 import NegreAVL from '../Negre-AVL.svg';
+import { Link } from 'react-router-dom';
 
 
 function Banner() {
@@ -11,10 +12,12 @@ function Banner() {
         ES
       </div>
       <div className="banner-center">
-        <img src={NegreAVL} className="logo" alt="logo" />
+        <Link to="/">
+          <img src={NegreAVL} className="logo" alt="logo" />
+        </Link>
       </div>
       <div className="banner-side">
-        About Us
+        <Link to="/about">About</Link>
         Contact
       </div>
     </div>
