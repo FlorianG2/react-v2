@@ -16,7 +16,7 @@ function Banner() {
   return(
     <div className="banner">
       <div className="banner-side">
-        <select className="custom-select" style={{width: 80}} onChange={changeLanguageHandler}>
+        <select className="custom-select"  onChange={changeLanguageHandler}>
           <option value="en" >English</option>
           <option value="es" >Español</option>
         </select>

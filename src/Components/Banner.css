@@ -24,5 +24,6 @@
 .custom-select{
   background-color: transparent;
   border: transparent;
-  font-size: 15px;
+  font-size: 1vw;
+  width: 5vw;
 }
