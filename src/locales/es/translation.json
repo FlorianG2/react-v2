@@ -1,7 +1,7 @@
 {
-  "sport": "DEPORTE",
-  "music": "MUSICA",
-  "art": "ARTE",
+  "sport": "deporte",
+  "music": "musica",
+  "art": "art",
   "contact": "Contacto",
   "about": "Quiénes Somos"
 }
