@@ -1,6 +1,6 @@
 .banner {
   position: absolute;
-  height: 20vh;
+  height: 10vh;
   width: 100%;
   z-index: 1;
   display: flex;
@@ -21,9 +21,34 @@
   width: 50%;
 }
 
+.banner-link{
+  text-decoration: none;
+  /* color: black; */
+  font-size: 1.5vw;
+}
+.banner-link{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+}
+
+.link-p{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+}
+
+.link-p:hover{
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
 .custom-select{
   background-color: transparent;
   border: transparent;
   font-size: 1vw;
-  width: 5vw;
+  width: 6.5vw;
 }

@@ -5,15 +5,39 @@
 
 
 .category_card{
-  width: 33%;
+  width: 33vw;
   height: 100vh;
   overflow: hidden;
 }
 
 .category_card_center{
-  width: 34%;
+  width: 34vw;
   height: 100vh;
   overflow: hidden;
+}
+
+.content_mobile{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.category_card_mobile{
+  height: 30vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.category_card_center_mobile{
+  height: 30vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.empty_space{
+  height: 10vh;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .photo {
@@ -30,7 +54,7 @@
 	transition-property: filter 1s;
 }
 
-.photo:hover {
+.photo:hover, .photo:active {
   height: 100%;
   max-width: 100%;
   filter: grayscale(0);
@@ -44,11 +68,27 @@
 
 .title{
   position: relative;
-  bottom: 25%;
+  top: 0%;
+  transform: translateY(-100%);
   text-align: center;
   font-family: 'Khand', sans-serif;
-  font-size: 60px;
+  font-size: 8vh;
   color: rgba(255, 255, 255, 0.3);
   -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.5);
+}
 
+.title-mobile{
+  position: relative;
+  top: 0%;
+  right: 1%;
+  transform: translateY(-100%);
+  text-align: right;
+  font-family: 'Khand', sans-serif;
+  font-size: 15vw;
+  color: rgba(255, 255, 255, 0.3);
+  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.5);
+}
+
+.margin-zero{
+  margin: 0;
 }

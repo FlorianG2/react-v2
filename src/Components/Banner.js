@@ -17,8 +17,8 @@ function Banner() {
     <div className="banner">
       <div className="banner-side">
         <select className="custom-select"  onChange={changeLanguageHandler}>
-          <option value="en" >English</option>
-          <option value="es" >Español</option>
+          <option value="en" >🇬🇧 English</option>
+          <option value="es" >🇪🇸 Español</option>
         </select>
       </div>
       <div className="banner-center">
@@ -27,8 +27,16 @@ function Banner() {
         </Link>
       </div>
       <div className="banner-side">
-        <Link to="/about">{t('about')}</Link>
-        <Link to="/contact">{t('contact')}</Link>
+        <Link to="/about" className='banner-link'>
+          <p className='link-p'>
+            {t('about')}
+          </p>
+        </Link>
+        <Link to="/contact" className='banner-link'>
+          <p className='link-p'>
+            {t('contact')}
+          </p>
+        </Link>
       </div>
     </div>
   )
