@@ -1,0 +1,36 @@
+.we-are{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 6vh;
+}
+
+.container-we-are{
+  width: 25vw;
+  /* height: 90vh; */
+  background-color: transparent;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.sport-color {
+  color: #DEE76D;
+}
+.bg-sport-color {
+  background-color: #DEE76D;
+}
+
+.art-color {
+  color: #70B98E;
+}
+
+.bg-art-color {
+  background-color: #70B98E;
+}
+
+.music-color {
+  color: #BB2719;
+}
+
+.bg-music-color {
+  background-color: #BB2719;
+}

@@ -1,5 +1,16 @@
 a{
   text-decoration: none;
   color: black;
-  font-size: 1.5vw;
+}
+
+.container-photo{
+  position: absolute;
+  top: 10vh;
+  height: 90vh;
+  width: 100vw;
+}
+
+.photo-bg{
+  width: 100%;
+  height: 100%;
 }

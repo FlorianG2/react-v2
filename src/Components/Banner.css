@@ -6,6 +6,12 @@
   display: flex;
 }
 
+.bloc-banner {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+}
+
 .banner-side{
   width: 25%;
   font-family: 'Khand', sans-serif;

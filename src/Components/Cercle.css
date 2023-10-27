@@ -1,0 +1,50 @@
+.bloc-slide{
+  width: 27vw;
+  height: 90vh;
+  position: absolute;
+  left: -27vw;
+  overflow: scroll;
+  z-index: 2;
+}
+
+.bloc-slide:hover{
+  width: 25vw;
+  height: 90vh;
+  /* border-radius: 0; */
+  position: absolute;
+  left: 0;
+  transition: 400ms;
+}
+
+.cercle{
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  top: 50%;
+  /* position: absolute;
+  right: -3vw; */
+  position: fixed;
+  right: 98vw;
+  z-index: 1;
+}
+
+.center{
+ text-align: center;
+}
+
+.text-center{
+  display: flex;
+  justify-content: center;
+  margin: 0 10% 0 10%;
+}
+
+.btn-more{
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 0.5vw;
+  margin: 2vw 6vw 2vw 6vw;
+  border: solid 1px black;
+  border-radius: 50px;
+  background-color: transparent;
+  text-align: center;
+}
